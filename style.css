@@ -1,0 +1,195 @@
+:root{
+    --blue:#0257AC;
+    --pink:#E4F0F8;
+}
+body{
+    font-family:"Object Sans",Arial,sans-serif ;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+nav{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid transparent;
+    
+}
+
+nav .left-nav-bar-content{
+  display: flex;
+}
+nav .right-nav-bar-content{
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+.nav-logo{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: var(--blue);
+    margin-left: 2rem;
+}
+
+.left-nav-bar-content ul{
+    display: flex;
+    
+
+}
+
+.left-nav-bar-content ul>li{
+    margin-right: 2rem;
+    
+}
+
+.right-nav-bar-content ul{
+    display: flex;
+}
+
+.login-button{
+    padding:  0.5rem 1rem 0.5rem 1rem;
+    color: #fff;
+    font-size: .9rem;
+    border-radius: 15%;
+    margin-left:2rem ;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    background-color:var(--blue);
+    border: none;
+    
+
+}
+
+.nav-vertical-align{
+    margin-top: 0.5rem;
+}
+
+main{
+    margin-top:5rem;
+    
+    margin-left: 0%;
+    padding: 0rem;
+    
+}
+main .main-container-top{
+    background-color: var(--blue);
+    display: flex;
+}
+
+.main-container-top-left > img{
+    width: 30.8rem;
+    height:100%;
+  
+}
+.main-container-top-right{
+    color: white;
+    width: 70%;
+    float: right;
+}
+
+.main-container-top-right span{
+    font-size: 2rem;
+    
+}
+
+
+
+.main-container-top-right  button {
+    background-color: #fff;
+    border-radius: .5rem;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem ;
+    line-height: 1.5;
+    cursor: pointer;
+    font-size: calc(0.90375rem + 0.045vw);
+}
+
+
+.main-container-top-right h1 {
+    font-weight: lighter;
+    font-size: clamp(1rem, calc(1rem + ((1vw - 0.36rem) * 2.381)), 3rem);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-container-top-right > div{
+    margin: 7rem 0rem 0rem 3rem;
+}
+
+div .info-msg{
+    width: 3.5rem;
+}
+
+.main-container-bottom{
+    margin: 3rem;
+}
+.msg{
+    display: flex;
+}
+
+.msg span{
+    margin-left: 1.5rem;
+    margin-top: 0.6rem;
+    color: var(--blue);
+    font-size: 1.7rem;
+}
+.msg + p a{
+    text-decoration: none;
+    color: var(--blue);
+
+}
+
+.main-container-bottom-bottom{
+    display: flex;
+    margin-top: 4rem;
+    
+}
+
+
+
+
+.main-container-bottom-bottom .main-container-bottom-bottom-left{
+    
+    width:50rem;
+    background-color:var(--pink);
+   
+    
+    
+
+}
+
+
+
+.main-container-bottom-bottom .main-container-bottom-bottom-right{
+    width:50rem;
+    height: 15rem;
+    
+
+}
+.main-container-bottom-bottom-right > img{
+    height: 100%;
+
+}
+
+
+.download-img{
+    display: flex;
+    margin-top:2rem;
+    
+}
+
+.main-container-bottom-bottom-left > span{
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
